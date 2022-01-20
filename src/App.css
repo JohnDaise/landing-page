@@ -154,12 +154,18 @@ article {
 article.activeSlide {
   opacity: 1;
   transform: translateX(0);
+  /* transform: 1s; */
+  transition-duration: 5s;
 }
 article.lastSlide { 
   transform: translateX(-100%);
+  /* transform: 1s; */
+  transition-duration: 5s;
 }
 article.nextSlide {
   transform: translateX(100%);
+  /* transform: 1s; */
+  transition-duration: 5s;
 }
 
 @keyframes App-logo-spin {
